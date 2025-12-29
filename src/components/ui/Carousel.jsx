@@ -46,7 +46,7 @@ export const Carousel = () => {
                 {
                     featured.map((slide) => (
                         <div key={slide.id}
-                            className=" relative bg-gray-900 w-full h-96 shrink-0
+                            className=" relative bg-gray-950 w-full h-96 shrink-0
                              flex justify-between items-center pl-25"
                         >
                             <div className={`absolute right-30 flex justify-center items-center w-50 h-50 rounded-2xl ${slide.logotype === "white" ? "bg-black" : "bg-white"}`}>
@@ -68,7 +68,7 @@ export const Carousel = () => {
                                         Visit</button>
                                 </a>
                                 <a href={slide.website}>
-                                    <button className="text-gray-300  underline underline-offset-5  mt-8  text-md px-6 py-1 transition-all duration-300 ease-out cursor-pointer hover:text-white ">
+                                    <button className="text-gray-300  underline underline-offset-5 mt-11  text-[13px] pl-2  transition-all duration-300 ease-out cursor-pointer hover:text-white ">
                                     Get Details</button>
                                 </a>
                                 </div>

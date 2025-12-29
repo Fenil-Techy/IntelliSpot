@@ -91,13 +91,13 @@ export const PromptSection = () => {
                     prompts.map((prompt) => (
 
 
-                        <div key={prompt.id} className="border h-60 overflow-y-auto w-105 rounded-2xl flex flex-col p-5 ">
-                            <div className="flex justify-between ">
-
+                        <div key={prompt.id} className="shadow-[2px_10px_10px_rgba(0,0,0,0.1)] h-60 overflow-y-auto w-105 rounded-2xl flex flex-col  ">
+                            <div className="flex w-full justify-between border-b px-4 py-2 mt-2 ">
+                        
                                 <p className="font-semibold">Posted by {prompt.name}</p>
                                 <VscCopy onClick={() => handleCopy(prompt.prompt)} className="h-5 w-5 text-gray-400 " />
                             </div >
-                            <div className="flex flex-col ">
+                            <div className="flex flex-col px-3 ">
                             <p className={`text-left text-lg mx-2 my-4 ${prompt.expanded ? "" : "line-clamp-3"
                                 }`}>{prompt.prompt}</p>
                             {prompt.prompt.length > 150 && (
@@ -107,9 +107,9 @@ export const PromptSection = () => {
                             )}
                             </div>
 
-                            <div className="flex justify-between items-center mx-2 mt-6 ">
+                            <div className="flex justify-between items-center mx-4 mt-6 ">
                                 <p className="flex gap-2"><Heart strokeWidth={1.5} onClick={() => handleClick(prompt.id)} className={prompt.liked ? "fill-red-500 stroke-red-500 " : ""} /> {prompt.likes}</p>
-                                <button className=" border px-5 py-1  text-black transition-all hover:-translate-y-1 duration-100 hover:shadow-md text-sm">Try it with tools</button>
+                                <button className=" border px-5 py-1 text-white rounded-lg  bg-indigo-400 transition-all hover:-translate-y-1 duration-100 hover:shadow-md text-sm hover:bg-indigo-500">Try it with tools</button>
                             </div>
                         </div>
                     ))
@@ -117,6 +117,7 @@ export const PromptSection = () => {
 
 
             </div>
+            <button className=" mt-10 flex m-auto px-5 py-4 text-white rounded-lg text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Prompts</button>
         </div>
     )
 }
