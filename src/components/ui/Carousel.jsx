@@ -1,63 +1,78 @@
 import tools from "@/data/ToolData.json"
 import { useEffect, useState } from "react"
-import { MdOutlineArrowBackIos,MdOutlineArrowForwardIos } from "react-icons/md";
+import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 
 
-export const Carousel=()=>{
+export const Carousel = () => {
 
-    const[currentIndex,setCurrentIndex]=useState(0)
-    const[featured,setFeatured]=useState([])
+    const [currentIndex, setCurrentIndex] = useState(0)
+    const [featured, setFeatured] = useState([])
 
-    const getFeaturedTool=()=>{
-        const FeaturedTool=tools.filter(slide=>slide.is_featured)
+    const getFeaturedTool = () => {
+        const FeaturedTool = tools.filter(slide => slide.is_featured)
         setFeatured(FeaturedTool)
         console.log(FeaturedTool)
     }
 
-    const prev=()=>{
-        const isfirstSlide=currentIndex===0
-        const newIndex=isfirstSlide?featured.length-1:currentIndex-1
+    const prev = () => {
+        const isfirstSlide = currentIndex === 0
+        const newIndex = isfirstSlide ? featured.length - 1 : currentIndex - 1
         setCurrentIndex(newIndex)
     }
-    const next=()=>{
-        const islastSlide=currentIndex===featured.length-1
-        const newIndex=islastSlide?0:currentIndex+1
+    const next = () => {
+        const islastSlide = currentIndex === featured.length - 1
+        const newIndex = islastSlide ? 0 : currentIndex + 1
         setCurrentIndex(newIndex)
     }
 
-    useEffect(()=>{
-        if (featured===0) return;
+    useEffect(() => {
+        if (featured === 0) return;
 
-        const interval=setInterval(()=>{
-            setCurrentIndex((prev)=>prev===featured.length-1?0:prev+1)
-        },3000)
-        return ()=>clearInterval(interval)
-    },[featured])
-    useEffect(()=>{
+        const interval = setInterval(() => {
+            setCurrentIndex((prev) => prev === featured.length - 1 ? 0 : prev + 1)
+        }, 3000)
+        return () => clearInterval(interval)
+    }, [featured])
+    useEffect(() => {
         getFeaturedTool()
-    },[])
-    useEffect(()=>{
+    }, [])
+    useEffect(() => {
         setCurrentIndex(0)
-    },[featured])
-    return(
-        <div className="relative w-full h-96 max-w-8xl mx-auto overflow-hidden">
+    }, [featured])
+    return (
+        <div className="relative w-full h-96  mx-auto overflow-hidden">
             <div className="flex transition-transform duration-500"
-            style={{transform:`translateX(-${currentIndex*100}%)`}}>
+                style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                 {
-                    featured.map((slide)=>(
+                    featured.map((slide) => (
                         <div key={slide.id}
-                            className=" relative bg-black w-full h-96 shrink-0
-                             flex justify-center items-center"
+                            className=" relative bg-gray-900 w-full h-96 shrink-0
+                             flex justify-between items-center pl-25"
                         >
-                            <div className={`absolute right-30 flex justify-center items-center w-50 h-50 rounded-2xl ${slide.logotype==="white"?"bg-black":"bg-white"}`}>
-                            <img src={slide.logo} className="absolute h-40 w-auto"/>
+                            <div className={`absolute right-30 flex justify-center items-center w-50 h-50 rounded-2xl ${slide.logotype === "white" ? "bg-black" : "bg-white"}`}>
+                                <img src={slide.logo} className="absolute h-40 w-auto" />
                             </div>
-                            <h1 className="text-white text-6xl font-semibold top-12 left-30 absolute ">{slide.name}</h1>
-                            <h2 className="text-white w-200 text-left top-35 left-30 absolute ">{slide.longDescription}</h2>
-                            <a href={slide.website}>
-                            <button className="text-white primary-btn border text-lg px-6 py-1 bottom-25 left-30 absolute transition-all duration-300 ease-out cursor-pointer hover:-translate-y-1 ">
-                            Visit</button>
-                            </a>
+                            <div className="flex flex-col">
+                                <h1 className="text-white text-6xl font-semibold -mt-10 ">{slide.name}</h1>
+                                <h2 className="text-white w-200 text-left mt-6">{slide.longDescription}</h2>
+                                <div className="">
+                                    <ul className="flex gap-4 mt-4">
+                                        {slide.tags.map((tag, index) => (
+                                            <li key={index} className=" border-2 border-gray-500 text-white rounded-full px-2 py-0.5 text-[13px]  tracking-wider">{tag}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div className="flex gap-4">
+                                <a href={slide.website}>
+                                    <button className="text-white primary-btn mt-8 rounded-lg text-lg px-6 py-1 transition-all duration-300 ease-out cursor-pointer hover:-translate-y-1 ">
+                                        Visit</button>
+                                </a>
+                                <a href={slide.website}>
+                                    <button className="text-gray-300  underline underline-offset-5  mt-8  text-md px-6 py-1 transition-all duration-300 ease-out cursor-pointer hover:text-white ">
+                                    Get Details</button>
+                                </a>
+                                </div>
+                            </div>
                         </div>
 
                     ))

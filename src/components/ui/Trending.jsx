@@ -15,7 +15,7 @@ export const Trending = () => {
 
     return (
         <div>
-            <h1 className="font-semibold text-3xl p-2">Trending</h1>
+            <h1 className="font-semibold text-3xl p-2">Featured</h1>
             <div className=" flex flex-col justify-center items-center  h-auto p-5 gap-5">
                 {
                     trendinglist && trendinglist.map((tool) => (

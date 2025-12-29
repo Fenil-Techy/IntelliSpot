@@ -4,7 +4,7 @@
     "name": "ChatGPT",
     "logo": "/logos/chatgpt.png",
     "shortDescription": "AI chatbot by OpenAI for conversation and text generation.",
-    "longDescription": "ChatGPT is a conversational AI model developed by OpenAI. It is capable of generating human-like text, answering questions, helping with writing, coding, brainstorming, research, and more. Known for its accuracy, reasoning ability, and versatility, ChatGPT is widely used in education, work, and personal tasks.",
+    "longDescription": "ChatGPT is capable of generating human-like text, answering questions, helping with writing, coding, brainstorming, research, and more. Known for its accuracy, reasoning ability, and versatility, ChatGPT is widely used in education, work, and personal tasks.",
     "category": "Chatbot",
     "tags": ["chatbot", "writing", "assistant", "productivity"],
     "website": "https://chat.openai.com",

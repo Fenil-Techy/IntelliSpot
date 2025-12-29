@@ -28,11 +28,11 @@ export const Home = () => {
             </section>
             <hr className="my-10 text-gray-300" />
             <section className="flex flex-col justify-center items-center  mt-10 ">
-                <Bundles />
+                <PromptSection />
             </section>
             <hr className="my-10 text-gray-300" />
             <section className="flex flex-col justify-center items-center  mt-10 ">
-                <PromptSection />
+                <Bundles />
             </section>
             <hr className="my-10 text-gray-300" />
             {/* <section className="flex flex-col justify-center items-center mt-10 ">
