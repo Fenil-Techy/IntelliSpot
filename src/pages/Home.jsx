@@ -11,18 +11,58 @@ export const Home = () => {
 
     return (
         <div className="h-auto w-350 mx-auto">
-            <section className="my-7">
-                <Carousel />
+
+            <section className="my-16 grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 items-center">
+                <div className="flex flex-col">
+                    {/* Heading with better leading/spacing */}
+                    <h1 className="text-5xl xl:text-6xl font-bold text-left mb-4 leading-tight tracking-tight">
+                        Discover the Best <br />
+                        <span className="text-gray-900">AI Tools and Prompts</span> <br />
+                        in one place.
+                    </h1>
+
+                    <p className="text-left text-lg mt-4 text-gray-500 max-w-md">
+                        From <span className="font-semibold text-black">prompts</span> to full
+                        <span className="font-semibold text-black"> AI apps</span> — everything you need to build
+                        <span className="font-semibold text-black"> faster</span>.
+                    </p>
+
+                    <div className="flex flex-wrap gap-4 mt-10">
+                        <button className="bg-black rounded-lg text-white text-lg px-8 py-3 transition-transform duration-200 hover:-translate-y-1 active:scale-95 shadow-lg">
+                            Explore All Tools
+                        </button>
+                        <button className="border border-gray-300 rounded-lg text-lg px-8 py-3 transition-all duration-200 hover:bg-gray-50 hover:-translate-y-1 active:scale-95">
+                            Browse Prompts
+                        </button>
+                    </div>
+
+                    {/* Social Proof Section */}
+                    <ul className="flex items-center gap-4 mt-12 opacity-50 text-base font-medium">
+                        <li>500+ Tools</li>
+                        <li className="text-gray-400">•</li>
+                        <li>1000+ Prompts</li>
+                        <li className="text-gray-400">•</li>
+                        <li>10K+ Users</li>
+                    </ul>
+                </div>
+
+                {/* The Carousel Container */}
+                <div className="w-full shadow-2xl rounded-3xl overflow-hidden">
+                    <Carousel />
+                </div>
             </section>
-            <section className="grid grid-cols-2  place-items-center gap-3 ">
+
+            <hr className="my-10 text-gray-300" />
+            <section className="grid grid-cols-2 place-items-center gap-3 ">
                 <Trending />
-                <FeaturedTools/>
-            </section>
+                <FeaturedTools />
+            </section >
+            <button className=" mt-10 flex m-auto  px-5 py-4 text-white rounded-lg text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Tools</button>
             <hr className="my-10 text-gray-300" />
             {/* <section className="flex flex-col justify-center items-center  mt-5 ">
                 <Categories />
             </section> */}
-            
+
             <section className="flex flex-col justify-center items-center  mt-10 ">
                 <PopularUsecase />
             </section>
@@ -42,6 +82,6 @@ export const Home = () => {
             <section className="flex flex-col justify-center items-center mt-10 ">
                 <CTA />
             </section>
-        </div>
+        </div >
     )
 }
