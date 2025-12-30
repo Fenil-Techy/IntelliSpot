@@ -21,7 +21,7 @@ export const NavBar = () => {
                                 <NavLink to={links.path}
 
                                     className={({ isActive }) => `relative cursor-pointer font-medium after:absolute after:left-0 after:top-6
-                                    after:h-0.75 after:w-0 after:bg-black
+                                    after:h-0.5 after:w-0 after:bg-black
                                     after:transition-all after:duration-300
                                     hover:after:w-full
                                     ${isActive
