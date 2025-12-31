@@ -10,11 +10,11 @@ export const NavBar = () => {
     ]
     return (
         <div>
-            <nav className="flex font-primary font-weight  border-b border-border justify-between pl-20 items-center h-18 shadow-md">
+            <nav className="w-max-7xl flex font-primary font-weight border-b border-border justify-between  items-center shadow-md">
                 <div className="">
                     <h1 className="text-3xl text-white bg-black rounded-md px-2 py-1">IntelliSpot</h1>
                 </div>
-                <div>
+                <div className="hidden">
                     <ul className="flex gap-7 text-xl pr-4">
                         {links.map((links) => (
                             <li key={links.path}>
