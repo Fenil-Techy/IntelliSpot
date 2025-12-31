@@ -5,7 +5,7 @@ export const AppLayout=()=>{
     return(
         <div>
         <NavBar/>
-        <main className="min-h-screen">
+        <main>
         <Outlet/>
         </main>
         <Footer/>
