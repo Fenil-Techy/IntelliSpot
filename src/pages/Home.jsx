@@ -10,34 +10,34 @@ import { Trending } from "../components/ui/Trending"
 export const Home = () => {
 
     return (
-        <div className="h-auto w-350 mx-auto">
+        <div className=" p-4 mx-auto overflow-x-hidden">
 
-            <section className="my-16 grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 items-center">
-                <div className="flex flex-col">
+            <section className="my-10  grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 items-center">
+                <div className=" flex flex-col">
                     {/* Heading with better leading/spacing */}
-                    <h1 className="text-5xl xl:text-6xl font-bold text-left mb-4 leading-tight tracking-tight">
+                    <h1 className="text-4xl  md:text-5xl xl:text-6xl font-bold text-center mb-4 leading-tight tracking-tight">
                         Discover the Best <br />
                         <span className="text-gray-900">AI Tools and Prompts</span> <br />
                         in one place.
                     </h1>
 
-                    <p className="text-left text-lg mt-4 text-gray-500 max-w-md">
+                    <p className="text-center text-md md:text-lg mt-4 text-gray-500 ">
                         From <span className="font-semibold text-black">prompts</span> to full
                         <span className="font-semibold text-black"> AI apps</span> — everything you need to build
                         <span className="font-semibold text-black"> faster</span>.
                     </p>
 
-                    <div className="flex flex-wrap gap-4 mt-10">
-                        <button className="bg-black rounded-lg text-white text-lg px-8 py-3 transition-transform duration-200 hover:-translate-y-1 active:scale-95 shadow-lg">
+                    <div className=" flex justify-center items-center flex-wrap gap-4 mt-10">
+                        <button className="bg-black rounded-lg text-white text-sm px-2 py-2 md:text-lg md:px-8 md:py-3 transition-transform duration-200 hover:-translate-y-1 active:scale-95 shadow-lg">
                             Explore All Tools
                         </button>
-                        <button className="border border-gray-300 rounded-lg text-lg px-8 py-3 transition-all duration-200 hover:bg-gray-50 hover:-translate-y-1 active:scale-95">
+                        <button className="border border-gray-300 rounded-lg  text-sm px-2 py-2 md:text-lg md:px-8 md:py-3 transition-all duration-200 hover:bg-gray-50 hover:-translate-y-1 active:scale-95">
                             Browse Prompts
                         </button>
                     </div>
 
                     {/* Social Proof Section */}
-                    <ul className="flex items-center gap-4 mt-12 opacity-50 text-base font-medium">
+                    <ul className="flex items-center justify-between md:gap-4 mt-12 opacity-50 text-base font-medium">
                         <li>500+ Tools</li>
                         <li className="text-gray-400">•</li>
                         <li>1000+ Prompts</li>
@@ -52,8 +52,8 @@ export const Home = () => {
                 </div>
             </section>
 
-            <hr className="my-10 text-gray-300" />
-            <section className="grid grid-cols-2 place-items-center gap-3 ">
+            <hr className="my-10  text-gray-300" />
+            <section className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-3 ">
                 <Trending />
                 <FeaturedTools />
             </section >
