@@ -54,16 +54,16 @@ export const Home = () => {
 
             <hr className="my-10  text-gray-300" />
             <section className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-3 ">
-                <Trending />
                 <FeaturedTools />
+                <Trending />
             </section >
-            <button className=" mt-10 flex m-auto  px-5 py-4 text-white rounded-lg text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Tools</button>
+            <button className=" mt-6 flex m-auto text-sm px-3 py-2  md:px-5 md:py-4 text-white rounded-lg md:text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Tools</button>
             <hr className="my-10 text-gray-300" />
             {/* <section className="flex flex-col justify-center items-center  mt-5 ">
                 <Categories />
             </section> */}
 
-            <section className="flex flex-col justify-center items-center  mt-10 ">
+            <section className="mt-10 ">
                 <PopularUsecase />
             </section>
             <hr className="my-10 text-gray-300" />
