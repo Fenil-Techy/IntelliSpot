@@ -1,3 +1,4 @@
+import { AllBtn } from "../components/AllBtn"
 import { Bundles } from "../components/ui/Bundles"
 import { Carousel } from "../components/ui/Carousel"
 import { Categories } from "../components/ui/Categories"
@@ -10,7 +11,7 @@ import { Trending } from "../components/ui/Trending"
 export const Home = () => {
 
     return (
-        <div className=" p-4 mx-auto overflow-x-hidden">
+        <div className="max-w-7xl p-4 mx-auto">
 
             <section className="my-10  grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 items-center">
                 <div className=" flex flex-col">
@@ -53,11 +54,11 @@ export const Home = () => {
             </section>
 
             <hr className="my-10  text-gray-300" />
-            <section className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-3 ">
+            <section className="grid grid-cols-1 md:grid-cols-2 md:place-items-center gap-3 ">
                 <FeaturedTools />
                 <Trending />
             </section >
-            <button className=" mt-6 flex m-auto text-sm px-3 py-2  md:px-5 md:py-4 text-white rounded-lg md:text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Tools</button>
+            <AllBtn/>
             <hr className="my-10 text-gray-300" />
             {/* <section className="flex flex-col justify-center items-center  mt-5 ">
                 <Categories />
@@ -70,6 +71,7 @@ export const Home = () => {
             <section className="flex flex-col justify-center items-center  mt-10 ">
                 <PromptSection />
             </section>
+            
             <hr className="my-10 text-gray-300" />
             <section className="flex flex-col justify-center items-center  mt-10 ">
                 <Bundles />
@@ -79,7 +81,7 @@ export const Home = () => {
                 <RecentlyAdded />
             </section>
             <hr className="my-10 text-gray-300" /> */}
-            <section className="flex flex-col justify-center items-center mt-10 ">
+            <section className="">
                 <CTA />
             </section>
         </div >

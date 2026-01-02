@@ -83,22 +83,20 @@ export const PromptSection = () => {
 
 
     return (
-        <div className="w-full">
-            <h1 className="text-3xl font-semibold mb-8">Prompts</h1>
+        <div className="max-w-7xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-semibold mb-8">Prompts</h1>
 
-            <div className="grid grid-cols-3 place-items-center  gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 place-items-center  gap-8">
                 {
-                    prompts.map((prompt) => (
-
-
-                        <div key={prompt.id} className="shadow-[2px_10px_10px_rgba(0,0,0,0.1)] h-60 overflow-y-auto w-105 rounded-2xl flex flex-col  ">
+                    prompts.slice(0,3).map((prompt) => (
+                        <div key={prompt.id} className="shadow-[2px_10px_10px_rgba(0,0,0,0.1)] h-55 md:h-60 overflow-y-auto w-full rounded-2xl flex flex-col  ">
                             <div className="flex w-full justify-between border-b px-4 py-2 mt-2 ">
                         
                                 <p className="font-semibold">Posted by {prompt.name}</p>
                                 <VscCopy onClick={() => handleCopy(prompt.prompt)} className="h-5 w-5 text-gray-400 " />
                             </div >
                             <div className="flex flex-col px-3 ">
-                            <p className={`text-left text-lg mx-2 my-4 ${prompt.expanded ? "" : "line-clamp-3"
+                            <p className={`text-left text-sm mx-2 my-4 ${prompt.expanded ? "" : "line-clamp-3"
                                 }`}>{prompt.prompt}</p>
                             {prompt.prompt.length > 150 && (
                                 <button className="text-right -mt-5 "onClick={() => toggleExpand(prompt.id)}>
@@ -117,7 +115,7 @@ export const PromptSection = () => {
 
 
             </div>
-            <button className=" mt-10 flex m-auto px-5 py-4 text-white rounded-lg text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Prompts</button>
+            <button className=" mt-6 flex m-auto text-sm px-3 py-2  md:px-5 md:py-4 text-white rounded-lg md:text-md bg-indigo-500 transition-all hover:-translate-y-1 duration-100 hover:shadow-md hover:bg-indigo-600">Explore All Prompts</button>
         </div>
     )
 }
