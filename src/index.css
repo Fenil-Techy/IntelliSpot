@@ -16,6 +16,10 @@
     body{
         background-color: white;
     }
+    /* * {
+  outline: 1px solid red;
+} */
+
 }
 @layer components{
     .primary-btn{
