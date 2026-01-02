@@ -8,18 +8,18 @@ export const Footer=()=>{
        <footer class="bg-gray-900 text-gray-300 mt-10">
   <div class="max-w-7xl mx-auto px-6 py-15">
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-40">
+    <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-20">
 
-      <div class="lg:col-span-2 flex flex-col justify-center items-center">
-        <h2 class="text-4xl font-bold text-white mb-4 p-4 border">
+      <div class="order-1 lg:col-span-2 flex flex-col justify-center items-center">
+        <h2 class=" text-2xl md:text-4xl font-bold text-white mb-4 p-4 border">
           IntelliSpot
         </h2>
-        <p class="text-gray-400 max-w-md">
+        <p class="text-gray-400 text-sm md:max-w-md">
         The place where AI meets innovation.
         </p>
 
         
-        <div class="flex space-x-4 mt-6">
+        <div class=" grid grid-cols-2 gap-4 mt-6">
           <a href="#" class="hover:text-white "><FaSquareXTwitter className="h-8 w-8 transistion-transform duration-200 hover:-translate-y-2" /></a>
           <a href="#" class="hover:text-white"><FaLinkedin className="h-8 w-8 transistion-transform duration-200 hover:-translate-y-2"/></a>
           <a href="#" class="hover:text-white"><FaGithub className="h-8 w-8 transistion-transform duration-200 hover:-translate-y-2"/></a>
@@ -53,7 +53,7 @@ export const Footer=()=>{
         <ul class="space-y-2">
           <li><a href="#" class="hover:text-white">About</a></li>
           <li><a href="#" class="hover:text-white">Contact</a></li>
-          <li className="w-40"><a href="#" class="hover:text-white">Privacy Policy</a></li>
+          <li className=""><a href="#" class="hover:text-white">Privacy Policy</a></li>
           <li><a href="#" class="hover:text-white">Terms</a></li>
         </ul>
       </div>
