@@ -7,17 +7,18 @@ export const PopularUsecase = () => {
     const [isExpanded, setIsExpanded] = useState(false)
 
     const UsageList = [
-        { id: 0, que: "Build Website" },
-        { id: 1, que: "Generate Image" },
-        { id: 2, que: "Build Resume" },
-        { id: 3, que: "Make Reels" },
-        { id: 4, que: "Write Email" },
-        { id: 5, que: "Learn Skills" },
-        { id: 6, que: "Learn Language" },
-        { id: 7, que: "Create Youtube Content" },
-        { id: 8, que: "Generate Memes" },
-        { id: 9, que: "Invoice Generator" },
-    ]
+  { id: 0, que: "Build Website", total_count:20, icon: "💻" },
+  { id: 1, que: "Generate Image", total_count:8, icon: "🖼️" },
+  { id: 2, que: "Build Resume", total_count:10, icon: "📄" },
+  { id: 3, que: "Make Reels", total_count:5, icon: "🎬" },
+  { id: 4, que: "Write Email", total_count:20, icon: "✉️" },
+  { id: 5, que: "Learn Skills", total_count:10, icon: "🧠" },
+  { id: 6, que: "Learn Language", total_count:5, icon: "🌍" },
+  { id: 7, que: "Create Youtube Content", total_count:17, icon: "📺" },
+  { id: 8, que: "Generate Memes", total_count:10, icon: "😂" },
+  { id: 9, que: "Invoice Generator", total_count:20, icon: "🧾" },
+];
+
 
     // start from center
     // const [currentIndex, setCurrentIndex] = useState(0)
@@ -55,8 +56,10 @@ export const PopularUsecase = () => {
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-6  place-items-center">
                     {UsageList.slice(0, isExpanded ? UsageList.length : 5).map((use) => (
                         <Link key={use.id} to="/Usage">
-                            <div className="w-70 h-20 md:h-32 md:w-60 outline-indigo-300 outline rounded-xl border bg-card flex justify-center items-center shadow-md transition-all duration-300 animate-in fade-in slide-in-from-top-2 hover:scale-105 hover:-translate-y-3 hover:bg-indigo-500 hover:text-white">
+                            <div className="w-70 h-20 md:h-32 md:w-60 outline-indigo-300 outline rounded-xl border bg-card flex gap-2 justify-center items-center shadow-md transition-all duration-300 animate-in fade-in slide-in-from-top-2 hover:scale-105 hover:-translate-y-3 hover:bg-indigo-500 hover:text-white">
+                                <h1>{use.icon}</h1>
                                 <h1 className="font-medium text-md">{use.que}</h1>
+                                <h1 className="text-sm text-gray-500">({use.total_count}+)</h1>
                             </div>
                         </Link>
                     ))}
