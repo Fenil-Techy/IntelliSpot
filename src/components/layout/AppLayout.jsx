@@ -3,7 +3,7 @@ import { NavBar } from "./Navbar"
 import {Footer} from "./Footer"
 export const AppLayout=()=>{
     return(
-        <div>
+        <div className="">
         <NavBar/>
         <main>
         <Outlet/>
