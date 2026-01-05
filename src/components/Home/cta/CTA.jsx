@@ -1,6 +1,6 @@
 export const CTA = () => {
     return (
-        <div class="w-max-7xl ">
+        <div className="w-max-7xl ">
             <div className="relative rounded-2xl flex flex-col justify-center items-center w-full  h-96 bg-black">
 
             <img src="./logos/gemini.png" className="absolute w-13 h-13 left-10 bottom-10 md:left-20 md:bottom-20 md:h-20 md:w-20" />
