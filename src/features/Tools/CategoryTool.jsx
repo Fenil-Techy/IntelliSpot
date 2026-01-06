@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import tools from "@/data/ToolData.json"
+import tools from "@/features/tools/data/ToolData.json"
 export const CategoryTool=()=>{
 
     const {category}=useParams()

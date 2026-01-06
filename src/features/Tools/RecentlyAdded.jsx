@@ -1,4 +1,4 @@
-import tools from "@/data/ToolData.json"
+import tools from "@/features/tools/data/ToolData.json"
 import { useEffect, useState } from "react"
 export const RecentlyAdded = () => {
     const [trendinglist, setTrendingList] = useState()
