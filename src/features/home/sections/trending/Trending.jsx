@@ -1,6 +1,6 @@
 import tools from "@/data/ToolData.json"
 import { useEffect, useState } from "react"
-import { AllBtn } from "../../AllBtn"
+import { AllBtn } from "../../../../components/AllBtn"
 export const Trending = () => {
     const [trendinglist, setTrendingList] = useState()
 

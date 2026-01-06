@@ -1,13 +1,12 @@
-import { AllBtn } from "../components/AllBtn"
-import { Bundles } from "../components/Home/bundle/Bundles"
-import { Carousel } from "../components/Home/hero/Carousel"
-import { Categories } from "../components/ui/Categories"
-import { CTA } from "../components/Home/cta/CTA"
-import { FeaturedTools } from "../components/Home/featured/Featured"
-import { PopularUsecase } from "../components/Home/usecase/PopularUsecase"
-import { PromptSection } from "../components/Home/prompt/PromptSection"
-import { RecentlyAdded } from "../components/ui/RecentlyAdded"
-import { Trending } from "../components/Home/trending/Trending"
+import { AllBtn } from "../../components/AllBtn"
+import { Bundles } from "./sections/bundle/Bundles"
+import { Carousel } from "./sections/hero/Carousel"
+
+import { CTA } from "./sections/cta/CTA"
+import { FeaturedTools } from "./sections/featured/Featured"
+import { PopularUsecase } from "./sections/usecase/PopularUsecase"
+import { PromptSection } from "./sections/prompt/PromptSection"
+import { Trending } from "./sections/trending/Trending"
 export const Home = () => {
 
     return (
