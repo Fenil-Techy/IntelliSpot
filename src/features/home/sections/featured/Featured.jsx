@@ -3,7 +3,7 @@ import { useTrendingTools } from "../../../Tools/hooks/useTrendingtools"
 
 export const FeaturedTools = () => {
 
-    const featuredTools=useTrendingTools
+    const featuredTools=useTrendingTools()
 
     return (
         <div className="max-w-7xl mx-auto">
