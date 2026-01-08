@@ -2,7 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { AppLayout } from "../layout/AppLayout"
 import { Prompt } from "../features/prompt/Prompt"
 import { Home } from "../features/home/Home"
-import { CategoryTool } from "../features/Tools/CategoryTool"
+import { CategoryTool } from "../features/Tools/components/CategoryTool"
+import { Tools } from "../features/Tools/Tools"
 
 const router=createBrowserRouter([{
   path:"/",
@@ -11,6 +12,11 @@ const router=createBrowserRouter([{
     {
       path:"/",
       element:<Home/>
+
+    },
+    {
+      path:"/tools",
+      element:<Tools/>
 
     },
     {
