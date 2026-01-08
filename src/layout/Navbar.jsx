@@ -8,9 +8,9 @@ export const NavBar = () => {
 
     const links = [
         { name: "Home", path: "/" },
-        { name: "Tools", path: "/toollist" },
+        { name: "Tools", path: "/tools" },
         { name: "Prompts", path: "/prompt" },
-        { name: "Bundles", path: "/Bundles" },
+        { name: "Bundles", path: "/bundles" },
         { name: "Submit Tool", path: "/submittool" },
         { name: "Advertise", path: "/advertise" },
         { name: "Sign in", path: "/signin" },
@@ -26,7 +26,7 @@ export const NavBar = () => {
                     <button onClick={()=>setIsOpen(!isOpen)} className="text-right w-full text-2xl px-7 py-3">✕</button>
                     <ul className="flex flex-col gap-7 text-xl px-10">
                         {links.map((links) => (
-                            <li key={links.path}>
+                            <li onClick={()=>setIsOpen(!isOpen)} key={links.path}>
                                 <NavLink to={links.path}
 
                                     className={({ isActive }) => `relative cursor-pointer font-medium after:absolute after:left-0 after:top-6
