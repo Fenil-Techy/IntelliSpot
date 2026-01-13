@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { LoadMore } from "../../../shared/component/Loadmore";
 
-export const CategoryList=()=>{
+export const CategoryList=({ selectedCategory, onCategoryChange })=>{
 
     const[isExpanded,setIsExpanded]=useState(false)
 
     const list = [
+  { id: 0, name: "All" },
+  { id: -1, name: "Featured" },
+  { id: -2, name: "Trending" },
   { id: 1, name: "Productivity" },
   { id: 2, name: "Design" },
   { id: 3, name: "Chatbot" },
@@ -33,13 +36,31 @@ export const CategoryList=()=>{
   
 ];
 
+    const handleCategoryClick = (categoryName) => {
+        if (selectedCategory === categoryName) {
+            onCategoryChange(null)
+        } else {
+            onCategoryChange(categoryName)
+        }
+    }
+
     return(
         <section>
             <h1 className="font-bold text-2xl py-2 mb-4">Categories</h1>
             <div className="grid grid-cols-3 gap-5">
                 {
-                    list.slice(0,isExpanded?list.length:6).map((type)=>(
-                        <button key={type.id} className="px-2 py-1 border text-sm border-gray-400 rounded-2xl">{type.name}</button>
+                    list.slice(0,isExpanded?list.length:9).map((type)=>(
+                        <button 
+                            key={type.id} 
+                            onClick={() => handleCategoryClick(type.name)}
+                            className={`px-2 py-1 border text-sm rounded-2xl transition-colors ${
+                                selectedCategory === type.name 
+                                    ? "border-blue-500 bg-blue-50 text-blue-700" 
+                                    : "border-gray-400 hover:border-gray-600"
+                            }`}
+                        >
+                            {type.name}
+                        </button>
                     ))
                 }
             </div>
