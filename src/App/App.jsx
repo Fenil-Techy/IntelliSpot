@@ -2,8 +2,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { AppLayout } from "../layout/AppLayout"
 import { Prompt } from "../features/prompt/Prompt"
 import { Home } from "../features/home/Home"
-import { CategoryTool } from "../features/Tools/components/CategoryTool"
 import { Tools } from "../features/Tools/Tools"
+import { ToolDetails } from "../features/Tools/components/ToolDetails"
+
 
 const router=createBrowserRouter([{
   path:"/",
@@ -24,9 +25,10 @@ const router=createBrowserRouter([{
       element:<Prompt/>
     },
     {
-        path: "/category/:category",
-        element: <CategoryTool />
-      }
+        path: "/tool/:id",
+        element: <ToolDetails/>
+    },
+    
   ]
 }])
 

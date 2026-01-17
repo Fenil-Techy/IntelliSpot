@@ -49,7 +49,7 @@ export const ToolList = ({ selectedCategory, searchQuery }) => {
     return (
         <section className="mt-8">
             <h1 className="font-bold text-2xl py-2 mb-4">{getTitle()}</h1>
-            <div className="flex flex-col justify-center items-center gap-5">
+            <div className="grid grid-cols-1 place-items-center py-4 px-4 md:p-5 gap-5">
                 {filteredTools.length > 0 ? (
                     filteredTools.map((tool) => (
                         <ToolCard key={tool.id} tool={tool}/>

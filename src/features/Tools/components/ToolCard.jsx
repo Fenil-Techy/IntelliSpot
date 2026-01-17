@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const ToolCard = ({ tool }) => {
   return (
     <div className="grid grid-cols-[70px_1fr] md:grid-cols-[1fr_3fr] w-full bg-card rounded-2xl gap-2 py-2 shadow-[0_5px_5px_rgba(0,0,0,0.1)]">
@@ -32,12 +34,16 @@ export const ToolCard = ({ tool }) => {
           </ul>
         </div>
 
-        <div className="md:mt-auto md:self-end">
+        <div className="md:mt-auto md:self-end flex flex-col gap-2 justify-center items-center  ">
           <a href={tool.website} target="_blank" rel="noreferrer noopener">
             <button className="px-3 py-1 mr-2 text-xs md:px-6 md:py-1 primary-btn md:text-md text-white transition-all hover:-translate-y-1 duration-200 hover:shadow-lg hover:bg-indigo-600 rounded-lg">
               Visit
             </button>
           </a>
+
+          <Link to="/tool/:id">
+          <a href="" className="text-gray-400 text-xs">Get Details</a>
+          </Link>
         </div>
       </div>
     </div>

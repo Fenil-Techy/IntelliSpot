@@ -8,7 +8,7 @@ export const Tools=()=>{
     const [searchQuery, setSearchQuery] = useState("")
     
     return (
-        <div className="p-4">
+        <div className="p-4 mx-auto">
             <CategoryList selectedCategory={selectedCategory} onCategoryChange={setSelectedCategory}/>
             <SearchBar searchQuery={searchQuery} onSearchChange={setSearchQuery}/>
             <ToolList selectedCategory={selectedCategory} searchQuery={searchQuery}/>
