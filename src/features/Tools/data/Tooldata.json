@@ -4,137 +4,291 @@
     "name": "ChatGPT",
     "logo": "/logos/chatgpt.png",
     "shortDescription": "AI chatbot by OpenAI for conversation and text generation.",
-    "longDescription": "ChatGPT is capable of generating human-like text, answering questions, helping with writing, coding, brainstorming, research, and more. Known for its accuracy, reasoning ability, and versatility, ChatGPT is widely used in education, work, and personal tasks.",
+    "longDescription": "ChatGPT is OpenAI’s powerful conversational AI designed to help you think, create, and build faster than ever. Powered by advanced language models, ChatGPT understands and generates natural, human-like responses across writing, coding, analysis, and creative tasks. From brainstorming ideas and crafting high-quality content to solving complex problems and accelerating development, ChatGPT adapts to your workflow and elevates productivity. Available across web, mobile, and API integrations, ChatGPT brings intelligent assistance wherever you work.",
+    "features": [
+      "All-in-one AI for writing, creativity, research, and coding",
+      "Advanced natural language understanding with human-like conversations",
+      "Powerful reasoning and problem-solving capabilities",
+      "Code generation, debugging, and technical assistance",
+      "Scalable and secure infrastructure powered by OpenAI",
+      "Easy integration via APIs for apps and enterprise workflows"
+    ],
+    "videos": "https://youtu.be/boJG84Jcf-4?si=VbmyJg6JDRHnCruq",
+    "images": ["https://image2url.com/r2/default/images/1768745196952-6a8729b4-8380-437b-b3b4-791019ca7301.png","https://image2url.com/r2/default/images/1768745288338-526e8599-eaec-40c9-8a9f-de93c033e1a3.png","https://image2url.com/r2/default/images/1768745318095-10b1eca6-3705-4574-af93-6bb9bd27692e.png"],
+    "provider": "OpenAI",
     "category": "Chatbot",
-    "tags": ["chatbot", "writing", "assistant", "productivity"],
+    "tags": [
+      "chatbot",
+      "writing",
+      "assistant",
+      "productivity"
+    ],
     "website": "https://chat.openai.com",
-    "is_trending":true,
-    "is_featured":true,
-    "logotype":"black"
+    "is_trending": true,
+    "is_featured": true,
+    "logotype": "black"
   },
-
   {
     "id": 2,
     "name": "Claude AI",
     "logo": "/logos/claude.png",
     "shortDescription": "AI assistant from Anthropic known for safety and long context.",
-    "longDescription": "Claude is an AI assistant built by Anthropic with a focus on safety, reasoning, and long-context understanding. It excels in summarizing large documents, research tasks, and deep conversations while maintaining safe output.",
+    "longDescription": "Claude is Anthropic’s next-generation conversational AI built to deliver helpful, trustworthy, and high-quality assistance across everyday and professional tasks. Designed with a strong emphasis on safety and reliability, Claude helps users write better, think more clearly, and solve complex problems with confidence. From content creation and research to coding and strategic analysis, Claude adapts seamlessly to your needs while maintaining clarity, accuracy, and a natural conversational experience. Available via web and API, Claude integrates effortlessly into individual workflows and enterprise applications.",
+    "features": [
+      "Create clear, compelling content faster with intelligent writing support",
+      "Enjoy natural, engaging conversations that feel intuitive and human",
+      "Tackle complex tasks with confidence using advanced reasoning abilities",
+      "Boost productivity with instant help for research, summaries, and insights",
+      "Build and refine code efficiently with smart development assistance",
+      "Rely on a safety-first AI designed for trust, accuracy, and consistency"
+    ],
+    "images":[],
+    "videos": "https://youtu.be/aiA6z3bFf6k",
+    "provider": "Anthropic",
     "category": "Chatbot",
-    "tags": ["analysis", "writing", "research", "assistant"],
+    "tags": [
+      "analysis",
+      "writing",
+      "research",
+      "assistant"
+    ],
     "website": "https://claude.ai",
-    "is_trending":true,
-    "is_featured":true,
-    "logotype":"black"
+    "is_trending": true,
+    "is_featured": true,
+    "logotype": "black"
   },
-
   {
     "id": 3,
+    "provider": "Google LLC",
     "name": "Google Gemini",
     "logo": "/logos/gemini.png",
     "shortDescription": "Google’s multimodal AI for chat, creation, and reasoning.",
-    "longDescription": "Gemini is Google's powerful multimodal AI model capable of understanding text, images, audio, and video. It is integrated into Google Workspace and Android, making it an everyday productivity assistant.",
+    "longDescription": "Google Gemini is Google’s next-generation AI, built to help you create, think, and innovate faster than ever. Powered by cutting-edge multimodal intelligence, Gemini understands and generates text, images, code, audio, and video—delivering smarter, more natural interactions across every task.From brainstorming ideas and crafting content to solving complex problems and building software, Gemini adapts to your workflow and amplifies productivity. Seamlessly integrated with Google’s ecosystem, it brings powerful AI assistance wherever you work.",
+    "features": [
+      "All-in-one AI for writing, creativity, analysis, and coding",
+      "Multimodal by design — works across text, images, audio, and video",
+      "Advanced reasoning for deeper insights and better decisions",
+      "Built for speed and scale with Google-grade performance",
+      "Secure, reliable, and trusted Google infrastructure"
+    ],
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/gHfBJ6FBHKnLbW36hEDvgV-840-80.png",
+      "https://i.ytimg.com/vi/b5Fh7TaTkEU/maxresdefault.jpg",
+      "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/08/gemini-assistant-hero.jpg"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=b5Fh7TaTkEU"
+    ],
     "category": "Chatbot",
-    "tags": ["multimodal", "assistant", "reasoning"],
+    "tags": [
+      "multimodal",
+      "assistant",
+      "reasoning"
+    ],
     "website": "https://gemini.google.com",
-    "is_trending":true,
-    "is_featured":true,
-    "logotype":"black"
+    "is_trending": true,
+    "is_featured": true,
+    "logotype": "black"
   },
-
   {
     "id": 4,
     "name": "Perplexity AI",
     "logo": "/logos/perplexity.png",
     "shortDescription": "AI-powered search engine with real-time citations.",
-    "longDescription": "Perplexity is an AI search engine that provides real-time answers with citations, combining large language models with search results. Popular for research and fact-checking.",
+    "longDescription": "Perplexity AI is a powerful AI-driven answer engine designed to deliver fast, accurate, and well-sourced responses to user questions. Built to combine large language models with real-time web search, Perplexity helps users explore topics, conduct research, and verify information with confidence. It emphasizes transparency by citing sources, making it especially useful for learning, decision-making, and professional research. Accessible via web and API, Perplexity AI streamlines knowledge discovery with a clean, intuitive conversational experience.",
+    "features": [
+      "Get instant, accurate answers powered by real-time web search",
+      "Explore topics deeply with clear explanations and cited sources",
+      "Conduct faster research with concise summaries and follow-up questions",
+      "Verify information easily through transparent source attribution",
+      "Engage in natural conversations that adapt to your curiosity",
+      "Enhance productivity for learning, analysis, and informed decision-making"
+    ],
+    "videos": "https://youtu.be/0KQyYkqzZ6E",
+    "provider": "Perplexity AI",
     "category": "Search",
-    "tags": ["search", "research", "answers"],
+    "tags": [
+      "search",
+      "research",
+      "answers"
+    ],
     "website": "https://perplexity.ai",
-    "is_trending":false,
-    "is_featured":true,
-    "logotype":"black"
+    "is_trending": false,
+    "is_featured": true,
+    "logotype": "black"
   },
-
   {
     "id": 5,
     "name": "Midjourney",
     "logo": "/logos/midjourney.png",
     "shortDescription": "High-quality AI image generator used by professionals.",
-    "longDescription": "Midjourney is a leading AI image generator known for artistic, cinematic, and photorealistic visuals. It operates through Discord and is widely used for creative production.",
+    "longDescription": "Midjourney is an advanced AI image generation platform that transforms text prompts into high-quality, artistic visuals. Known for its distinctive aesthetic and creative depth, Midjourney empowers designers, artists, and creators to rapidly explore ideas, concepts, and styles. Operating primarily through Discord, it offers an intuitive prompt-based workflow that encourages experimentation and visual storytelling. Midjourney is widely used for concept art, illustrations, branding, and imaginative creative projects.",
+    "features": [
+      "Generate stunning, high-quality images from simple text prompts",
+      "Explore unique artistic styles with a strong creative aesthetic",
+      "Iterate quickly with variations, upscaling, and prompt refinement",
+      "Boost creative workflows for artists, designers, and content creators",
+      "Access an active community for inspiration and shared learning",
+      "Create concept art, illustrations, and visuals in minutes"
+    ],
+    "videos": "https://youtu.be/2G7O8w5Qk3A",
+    "provider": "Midjourney",
     "category": "Image Generation",
-    "tags": ["art", "images", "design"],
+    "tags": [
+      "art",
+      "images",
+      "design"
+    ],
     "website": "https://midjourney.com",
-    "is_trending":true,
-    "is_featured":true,
-    "logotype":"white"
+    "is_trending": true,
+    "is_featured": true,
+    "logotype": "white"
   },
-
   {
     "id": 6,
     "name": "Leonardo AI",
     "logo": "/logos/leonardo.png",
     "shortDescription": "AI platform for images, textures, and concept art.",
-    "longDescription": "Leonardo AI allows designers to generate game assets, concept art, and textures with high control. It includes training, workflows, and asset libraries.",
+    "longDescription": "Leonardo AI is a powerful generative AI platform focused on creating high-quality images, textures, and visual assets for creative professionals. Designed with flexibility and control in mind, Leonardo AI enables artists, designers, and game developers to generate consistent, production-ready visuals using customizable models and fine-tuned styles. With tools for image generation, editing, and asset refinement, Leonardo AI supports efficient workflows for concept art, game assets, product visuals, and digital design.",
+    "features": [
+      "Generate high-quality images and visual assets from text prompts",
+      "Create consistent styles using custom and fine-tuned models",
+      "Edit, upscale, and refine images with built-in AI tools",
+      "Ideal for game development, concept art, and digital design workflows",
+      "Gain greater creative control with advanced prompt and model settings",
+      "Accelerate production of professional, ready-to-use visual assets"
+    ],
+    "videos": "https://youtu.be/5nJZP8FqXwQ",
+    "provider": "Leonardo AI",
     "category": "Image Generation",
-    "tags": ["design", "game-dev", "art"],
+    "tags": [
+      "design",
+      "game-dev",
+      "art"
+    ],
     "website": "https://leonardo.ai"
   },
-
   {
     "id": 7,
     "name": "Runway ML",
     "logo": "/logos/runway.png",
     "shortDescription": "AI video generation and editing tool.",
-    "longDescription": "Runway ML enables video creation, editing, and effects using AI models. Known for Gen-1 and Gen-2 video generation.",
+    "longDescription": "Runway ML is a cutting-edge creative AI platform designed for video, image, and multimedia content creation. Widely used by filmmakers, designers, and content creators, Runway ML enables users to generate, edit, and transform videos and images using advanced generative models. With tools for text-to-video, video editing, background removal, and visual effects, Runway ML empowers creators to produce professional-quality content quickly without requiring deep technical expertise.",
+    "features": [
+      "Generate and edit videos using state-of-the-art generative AI models",
+      "Create videos from text prompts with text-to-video capabilities",
+      "Remove backgrounds, objects, and enhance footage with AI-powered tools",
+      "Accelerate creative workflows for filmmakers, marketers, and designers",
+      "Combine AI effects with traditional video editing features",
+      "Produce high-quality visual content without complex software setups"
+    ],
+    "videos": "https://youtu.be/8p3G5h2Z7Qk",
+    "provider": "Runway ML",
     "category": "Video",
-    "tags": ["video", "editing"],
+    "tags": [
+      "video",
+      "editing"
+    ],
     "website": "https://runwayml.com"
   },
-
   {
     "id": 8,
     "name": "ElevenLabs",
     "logo": "/logos/elevenlabs.png",
     "shortDescription": "AI tool for realistic voices and voice cloning.",
-    "longDescription": "ElevenLabs generates extremely realistic AI voices, supports multi-language output, and has voice cloning capabilities.",
+    "longDescription": "ElevenLabs is an advanced AI voice technology platform specializing in high-quality text-to-speech and voice cloning. Known for its natural-sounding, emotionally expressive voices, ElevenLabs enables creators, developers, and businesses to generate realistic speech for audiobooks, videos, games, podcasts, and applications. With multilingual support and precise voice control, ElevenLabs delivers human-like audio while prioritizing ethical use and voice safety.",
+    "features": [
+      "Generate highly realistic, human-like speech from text",
+      "Create custom and cloned voices with natural emotion and tone",
+      "Support multiple languages and accents with high audio quality",
+      "Ideal for audiobooks, videos, podcasts, and game dialogue",
+      "Fine-tune voice delivery with pacing, emphasis, and expression controls",
+      "Access via web and API for seamless creative and developer workflows"
+    ],
+    "videos": "https://youtu.be/5Dk5k8FjJ8M",
+    "provider": "ElevenLabs",
     "category": "Voice",
-    "tags": ["voice", "audio", "clone"],
+    "tags": [
+      "voice",
+      "audio",
+      "clone"
+    ],
     "website": "https://elevenlabs.io",
-    "is_featured":true,
-    "logotype":"white",
-    "is_trending":true
+    "is_featured": true,
+    "logotype": "white",
+    "is_trending": true
   },
-
   {
     "id": 9,
     "name": "Synthesia",
     "logo": "/logos/synthesia.png",
     "shortDescription": "AI video creation with avatars and voiceovers.",
-    "longDescription": "Synthesia allows anyone to create professional videos using AI avatars without needing cameras or actors. Used by companies for training and marketing.",
+    "longDescription": "Synthesia is an AI video generation platform that enables users to create professional-quality videos using realistic AI avatars and text-to-speech technology. Designed for business, education, and marketing use cases, Synthesia allows teams to produce training videos, presentations, and product explainers without cameras, actors, or studios. With support for multiple languages and customizable avatars, Synthesia makes video creation fast, scalable, and accessible.",
+    "features": [
+      "Create professional videos from text using realistic AI avatars",
+      "Support for multiple languages and accents for global audiences",
+      "Produce training, onboarding, and marketing videos at scale",
+      "Customize avatars, voices, backgrounds, and branding elements",
+      "Eliminate the need for cameras, studios, or video crews",
+      "Access an intuitive web-based platform for fast video creation"
+    ],
+    "videos": "https://youtu.be/8VZ5pGkY7dM",
+    "provider": "Synthesia",
     "category": "Video",
-    "tags": ["avatar", "video", "ai presenter"],
+    "tags": [
+      "avatar",
+      "video",
+      "ai presenter"
+    ],
     "website": "https://synthesia.io"
   },
-
   {
     "id": 10,
     "name": "Canva AI",
     "logo": "/logos/canva.png",
     "shortDescription": "AI design suite with templates, images, and editing tools.",
-    "longDescription": "Canva AI enhances design workflows with Magic Write, Magic Design, AI-generated images, and automated editing tools to create professional graphics quickly.",
+    "longDescription": "Canva AI is an intelligent design assistant built into Canva that helps users create professional-quality designs quickly and easily. By combining generative AI with Canva’s drag-and-drop design platform, Canva AI enables individuals and teams to generate presentations, social media posts, documents, images, and marketing materials from simple text prompts. Designed for accessibility and speed, Canva AI empowers anyone—regardless of design experience—to produce visually compelling content at scale.",
+    "features": [
+      "Generate designs, presentations, and documents from simple text prompts",
+      "Create images, text, and layouts using AI-powered design tools",
+      "Edit, resize, and adapt designs instantly for multiple platforms",
+      "Maintain brand consistency with styles, colors, and templates",
+      "Collaborate easily with teams in real time",
+      "Produce professional visuals without advanced design skills"
+    ],
+    "videos": "https://youtu.be/6Qw6K7Jm5qA",
+    "provider": "Canva",
     "category": "Design",
-    "tags": ["design", "templates", "editing"],
+    "tags": [
+      "design",
+      "templates",
+      "editing"
+    ],
     "website": "https://canva.com"
   },
-
   {
     "id": 11,
     "name": "Jasper AI",
     "logo": "/logos/jasper.png",
     "shortDescription": "AI copywriting and marketing content generator.",
-    "longDescription": "Jasper AI is a powerful AI content generator designed for marketers, writers, and business owners. It can generate blog posts, social media copy, ads, emails, and more with high-quality, human-like output.",
+    "longDescription": "Jasper AI is a leading AI-powered content creation platform designed to help marketing teams and businesses produce high-quality written content at scale. Built with a focus on brand voice, speed, and performance, Jasper AI supports everything from blog posts and ad copy to emails and social media content. With advanced workflows, collaboration tools, and brand controls, Jasper enables teams to create consistent, on-brand content efficiently across multiple channels.",
+    "features": [
+      "Generate high-quality marketing content quickly using AI",
+      "Maintain consistent brand voice with custom brand guidelines",
+      "Create blogs, ads, emails, and social content at scale",
+      "Collaborate with teams using shared workflows and projects",
+      "Improve content performance with built-in optimization tools",
+      "Integrate seamlessly into professional marketing workflows"
+    ],
+    "videos": "https://youtu.be/9JH1X5ZQK2E",
+    "provider": "Jasper AI",
     "category": "Writing",
-    "tags": ["writing", "marketing", "content", "ads"],
+    "tags": [
+      "writing",
+      "marketing",
+      "content",
+      "ads"
+    ],
     "website": "https://jasper.ai"
   },
   {
@@ -142,9 +296,24 @@
     "name": "Copy.ai",
     "logo": "/logos/copyai.png",
     "shortDescription": "AI tool for generating marketing copy and emails.",
-    "longDescription": "Copy.ai provides AI-assisted content creation for businesses and marketers. It can generate emails, ads, blog posts, product descriptions, and social media content quickly and efficiently.",
+    "longDescription": "Copy.ai is an AI-powered writing and go-to-market platform designed to help businesses create high-quality content quickly and consistently. Focused on marketing, sales, and operations use cases, Copy.ai enables teams to generate copy for ads, emails, blogs, product descriptions, and sales outreach while streamlining workflows with automation. With a strong emphasis on speed, scalability, and revenue impact, Copy.ai helps teams move faster from idea to execution.",
+    "features": [
+      "Generate marketing and sales copy in seconds using AI",
+      "Create content for ads, emails, blogs, and product descriptions",
+      "Automate go-to-market workflows with AI-powered tools",
+      "Maintain consistency across teams and communication channels",
+      "Support sales outreach, lead generation, and content scaling",
+      "Access an intuitive platform built for business productivity"
+    ],
+    "videos": "https://youtu.be/FK3Q1X7K9mA",
+    "provider": "Copy.ai",
     "category": "Writing",
-    "tags": ["writing", "marketing", "ads", "copywriting"],
+    "tags": [
+      "writing",
+      "marketing",
+      "ads",
+      "copywriting"
+    ],
     "website": "https://copy.ai"
   },
   {
@@ -152,9 +321,24 @@
     "name": "Grammarly",
     "logo": "/logos/grammarly.png",
     "shortDescription": "AI-powered grammar checker and writing assistant.",
-    "longDescription": "Grammarly is an AI writing assistant that checks grammar, spelling, punctuation, tone, and style. It works in emails, documents, social media posts, and more, helping users communicate clearly and professionally.",
+    "longDescription": "Grammarly is an AI-powered writing assistant designed to help users communicate clearly, correctly, and confidently. It goes beyond basic grammar and spell checking by offering real-time suggestions for clarity, tone, engagement, and correctness across emails, documents, messages, and professional writing. Used by individuals, teams, and enterprises, Grammarly integrates seamlessly into browsers, desktop apps, and workflows to improve writing quality and consistency.",
+    "features": [
+      "Fix grammar, spelling, and punctuation errors in real time",
+      "Improve clarity, tone, and readability with intelligent suggestions",
+      "Adapt writing style for professional, casual, or persuasive contexts",
+      "Enhance emails, documents, and messages across platforms",
+      "Detect plagiarism and suggest proper citations (premium)",
+      "Integrate with browsers, desktop apps, and popular tools"
+    ],
+    "videos": "https://youtu.be/1FovY1K8Z5Y",
+    "provider": "Grammarly",
     "category": "Writing",
-    "tags": ["writing", "grammar", "editing", "proofreading"],
+    "tags": [
+      "writing",
+      "grammar",
+      "editing",
+      "proofreading"
+    ],
     "website": "https://grammarly.com"
   },
   {
@@ -162,9 +346,26 @@
     "name": "Notion AI",
     "logo": "/logos/notion.png",
     "shortDescription": "AI-powered productivity assistant inside Notion.",
-    "longDescription": "Notion AI enhances the Notion workspace with AI-powered suggestions, summarization, writing assistance, and idea generation, helping teams and individuals stay productive and organized.",
+    "longDescription": "Notion AI is an AI-powered productivity and writing assistant built directly into the Notion workspace to help users create, edit, organize, and understand content more effectively. Beyond basic grammar and spelling corrections, Notion AI leverages context from your Notion pages, databases, and documents to generate content, summarize notes, extract action items, brainstorm ideas, translate text, and automate workflows. Designed for individuals and teams, it integrates seamlessly within Notion’s interface to boost productivity, streamline writing, and make information easier to work with across projects, documentation, and collaboration.",
+    "features": [
+      "Generate content and first drafts for notes, emails, blogs, and more with simple prompts",
+      "Improve writing with grammar corrections, tone adjustments, and clarity suggestions",
+      "Summarize long documents, meeting notes, or research into concise key points",
+      "Extract action items, insights, or tasks from text automatically",
+      "Translate content between multiple languages while retaining context",
+      "Brainstorm ideas, outlines, and creative concepts directly within your workspace",
+      "Understand document context to provide relevant responses and database-aware content",
+      "Works natively within Notion—no switching between tools or copying text"
+    ],
+    "videos": "https://youtu.be/S92KX8-Hmlc",
+    "provider": "Notion",
     "category": "Productivity",
-    "tags": ["productivity", "notes", "writing", "workspace"],
+    "tags": [
+      "productivity",
+      "notes",
+      "writing",
+      "workspace"
+    ],
     "website": "https://notion.so"
   },
   {
@@ -172,59 +373,51 @@
     "name": "Tome",
     "logo": "/logos/tome.png",
     "shortDescription": "AI storytelling and presentation creation tool.",
-    "longDescription": "Tome AI allows users to create interactive presentations, stories, and decks using AI-powered generation. It helps automate slide creation and storytelling for business, education, and content marketing.",
+    "longDescription": "Tome is an AI-powered storytelling and presentation assistant designed to help users quickly create compelling, visually rich narratives. It enables individuals and teams to generate structured presentations, documents, and stories from simple prompts, combining text, visuals, and layout automatically. By leveraging AI for content generation, design, and organization, Tome reduces the time and effort needed to communicate ideas clearly and persuasively, making it ideal for pitches, product stories, proposals, and knowledge sharing.",
+    "features": [
+      "Generate complete presentations and narratives from simple text prompts",
+      "Automatically structure content into clear, logical story flows",
+      "Create visually engaging layouts without manual design work",
+      "Refine and rewrite content for clarity, tone, and impact",
+      "Embed multimedia elements such as images, videos, and live content",
+      "Collaborate and iterate on presentations in real time",
+      "Export or share presentations easily with teams and stakeholders"
+    ],
+    "videos": "https://youtu.be/5rRZ0kHkF8A",
+    "provider": "Tome",
     "category": "Productivity",
-    "tags": ["presentations", "storytelling", "ai", "slides"],
+    "tags": [
+      "presentations",
+      "storytelling",
+      "ai",
+      "slides"
+    ],
     "website": "https://tome.app"
   },
   {
     "id": 16,
-    "name": "Runway Video AI",
-    "logo": "/logos/runway_video.png",
-    "shortDescription": "AI video editing and generation platform for creators.",
-    "longDescription": "Runway Video AI allows creators to generate and edit videos using AI, including green-screen removal, motion tracking, and style transfer. It’s widely used in content creation and marketing.",
-    "category": "Video",
-    "tags": ["video", "editing", "ai"],
-    "website": "https://runwayml.com"
-  },
-  {
-    "id": 17,
-    "name": "ElevenLabs",
-    "logo": "/logos/elevenlabs.png",
-    "shortDescription": "AI voice generation and cloning tool.",
-    "longDescription": "ElevenLabs allows creators to generate realistic AI voices for audiobooks, dubbing, podcasts, and other applications. It supports multiple languages and custom voice cloning.",
-    "category": "Voice",
-    "tags": ["voice", "audio", "cloning"],
-    "website": "https://elevenlabs.io"
-  },
-  {
-    "id": 18,
-    "name": "Synthesia",
-    "logo": "/logos/synthesia.png",
-    "shortDescription": "AI video creation with avatars and voiceovers.",
-    "longDescription": "Synthesia is a no-camera video creation platform where users can create professional videos using AI avatars and voiceovers. Popular for corporate training and marketing.",
-    "category": "Video",
-    "tags": ["video", "avatar", "ai"],
-    "website": "https://synthesia.io"
-  },
-  {
-    "id": 19,
-    "name": "Canva AI",
-    "logo": "/logos/canva.png",
-    "shortDescription": "AI design suite for images, templates, and creative content.",
-    "longDescription": "Canva AI integrates AI tools into Canva for easy design creation, including text-to-image generation, Magic Write for copy, and automated design suggestions.",
-    "category": "Design",
-    "tags": ["design", "templates", "ai"],
-    "website": "https://canva.com"
-  },
-  {
-    "id": 20,
     "name": "Figma AI",
     "logo": "/logos/figma.png",
     "shortDescription": "AI assistant integrated into Figma for design workflows.",
-    "longDescription": "Figma AI helps designers by generating design suggestions, automating repetitive tasks, and enhancing creativity within Figma projects.",
+    "longDescription": "Figma AI is an AI-powered design assistant integrated into Figma, helping designers, teams, and product creators streamline the creation, iteration, and refinement of user interfaces and visual assets. It leverages AI to generate design elements, suggest layouts, automate repetitive tasks, and enhance creativity, all while maintaining consistency with your design system. Figma AI empowers teams to work faster, explore design ideas effortlessly, and focus on high-impact creative decisions across web, mobile, and product design workflows.",
+    "features": [
+      "Generate UI components, icons, and illustrations from text prompts",
+      "Suggest layout improvements and responsive design adjustments",
+      "Automate repetitive design tasks and streamline workflows",
+      "Refine existing designs with AI-based enhancement suggestions",
+      "Collaborate in real-time with teams while AI assists contextually",
+      "Maintain design consistency with smart style and component recommendations",
+      "Integrate AI-powered content generation directly within Figma files"
+    ],
+    "videos": "https://youtu.be/Qhz5H6RqlY4",
+    "provider": "Figma",
     "category": "Design",
-    "tags": ["design", "ui", "ux", "ai"],
+    "tags": [
+      "design",
+      "ui",
+      "ux",
+      "ai"
+    ],
     "website": "https://figma.com"
   }
 ]
