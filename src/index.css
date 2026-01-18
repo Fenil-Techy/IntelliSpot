@@ -20,6 +20,16 @@
   outline: 1px solid red;
 } */
 
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+
 }
 @layer components{
     .primary-btn{
