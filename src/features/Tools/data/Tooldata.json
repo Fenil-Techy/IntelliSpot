@@ -13,7 +13,7 @@
       "Scalable and secure infrastructure powered by OpenAI",
       "Easy integration via APIs for apps and enterprise workflows"
     ],
-    "videos": "https://youtu.be/boJG84Jcf-4?si=VbmyJg6JDRHnCruq",
+    "videos": "https://www.youtube.com/embed/boJG84Jcf-4?si=Pgw01vcAL-kzFmPr",
     "images": ["https://image2url.com/r2/default/images/1768745196952-6a8729b4-8380-437b-b3b4-791019ca7301.png","https://image2url.com/r2/default/images/1768745288338-526e8599-eaec-40c9-8a9f-de93c033e1a3.png","https://image2url.com/r2/default/images/1768745318095-10b1eca6-3705-4574-af93-6bb9bd27692e.png"],
     "provider": "OpenAI",
     "category": "Chatbot",
@@ -42,8 +42,10 @@
       "Build and refine code efficiently with smart development assistance",
       "Rely on a safety-first AI designed for trust, accuracy, and consistency"
     ],
-    "images":[],
-    "videos": "https://youtu.be/aiA6z3bFf6k",
+    "images":[
+      "https://www.zdnet.com/a/img/resize/c16aeabbd957da6f6bb64529db428af95163565e/2024/10/31/4d01ff0f-d98b-4d7c-9418-da35ae2ea18b/figure-top-claude-ai-launches-desktop-apps-and-new-dictation-mode.jpg?auto=webp&width=1280"
+    ],
+    "videos": "https://www.youtube.com/embed/0vZ_UVLhSQQ?si=S1QQ1ATzbcIrdC3M",
     "provider": "Anthropic",
     "category": "Chatbot",
     "tags": [
@@ -77,7 +79,7 @@
       "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/08/gemini-assistant-hero.jpg"
     ],
     "videos": [
-      "https://www.youtube.com/watch?v=b5Fh7TaTkEU"
+      "https://www.youtube.com/embed/98DcoXwGX6I?si=_izFTAXDJkSN-nbm"
     ],
     "category": "Chatbot",
     "tags": [
@@ -104,7 +106,8 @@
       "Engage in natural conversations that adapt to your curiosity",
       "Enhance productivity for learning, analysis, and informed decision-making"
     ],
-    "videos": "https://youtu.be/0KQyYkqzZ6E",
+    "videos": "https://www.youtube.com/embed/QfoulVr6UU8?si=ff5lYIIWeBTXkZ0Z",
+    "images":["https://www.jeffsu.org/content/images/2024/09/CleanShot-2024-09-17-at-10.55.23@2x.png","https://www.datocms-assets.com/96965/1705606286-ai-apps-perplexityai-question.png"],
     "provider": "Perplexity AI",
     "category": "Search",
     "tags": [
@@ -131,7 +134,8 @@
       "Access an active community for inspiration and shared learning",
       "Create concept art, illustrations, and visuals in minutes"
     ],
-    "videos": "https://youtu.be/2G7O8w5Qk3A",
+    "videos": "https://www.youtube.com/embed/E9PvSeIO5NY?si=ZuPmSYqNgQ0K_iAG",
+    "images":["https://www.techspot.com/articles-info/2648/images/2023-03-24-image-9.jpg"],
     "provider": "Midjourney",
     "category": "Image Generation",
     "tags": [
@@ -147,7 +151,7 @@
   {
     "id": 6,
     "name": "Leonardo AI",
-    "logo": "/logos/leonardo.png",
+    "logo": "https://images.seeklogo.com/logo-png/61/1/leonardo-ai-logo-png_seeklogo-619354.png",
     "shortDescription": "AI platform for images, textures, and concept art.",
     "longDescription": "Leonardo AI is a powerful generative AI platform focused on creating high-quality images, textures, and visual assets for creative professionals. Designed with flexibility and control in mind, Leonardo AI enables artists, designers, and game developers to generate consistent, production-ready visuals using customizable models and fine-tuned styles. With tools for image generation, editing, and asset refinement, Leonardo AI supports efficient workflows for concept art, game assets, product visuals, and digital design.",
     "features": [
@@ -158,7 +162,8 @@
       "Gain greater creative control with advanced prompt and model settings",
       "Accelerate production of professional, ready-to-use visual assets"
     ],
-    "videos": "https://youtu.be/5nJZP8FqXwQ",
+    "videos": "https://www.youtube.com/embed/Rukln4nr_Z0?si=YBi03vBNTAECVzZT",
+    "images":["https://itirupati.com/wp-content/uploads/2024/06/Leonardo-ai-Landing-Webpage.webp","https://approachableai.com/wp-content/uploads/2023/05/leonardo-ai-early-access-1024x590.png"],
     "provider": "Leonardo AI",
     "category": "Image Generation",
     "tags": [
@@ -171,7 +176,7 @@
   {
     "id": 7,
     "name": "Runway ML",
-    "logo": "/logos/runway.png",
+    "logo": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/runway.png",
     "shortDescription": "AI video generation and editing tool.",
     "longDescription": "Runway ML is a cutting-edge creative AI platform designed for video, image, and multimedia content creation. Widely used by filmmakers, designers, and content creators, Runway ML enables users to generate, edit, and transform videos and images using advanced generative models. With tools for text-to-video, video editing, background removal, and visual effects, Runway ML empowers creators to produce professional-quality content quickly without requiring deep technical expertise.",
     "features": [
@@ -182,19 +187,21 @@
       "Combine AI effects with traditional video editing features",
       "Produce high-quality visual content without complex software setups"
     ],
-    "videos": "https://youtu.be/8p3G5h2Z7Qk",
+    "videos": "https://www.youtube.com/embed/ei2PsDpPbB4?si=GgT9JrCo_NbRDtDZ",
+    "images":["https://cdn.vox-cdn.com/thumbor/eGe3vGfnweRubUOzTBYy1mAiA8I=/0x0:5119x2834/1920x0/filters:focal(0x0:5119x2834):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/18282972/runway_screenshot.png","https://tse1.mm.bing.net/th/id/OIP.WQ9KxXvc9nZ1RIq_Z_QVfAHaEi?rs=1&pid=ImgDetMain&o=7&rm=3"],
     "provider": "Runway ML",
     "category": "Video",
     "tags": [
       "video",
       "editing"
     ],
-    "website": "https://runwayml.com"
+    "website": "https://runwayml.com",
+    "logotype": "white"
   },
   {
     "id": 8,
     "name": "ElevenLabs",
-    "logo": "/logos/elevenlabs.png",
+    "logo": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/elevenlabs.png",
     "shortDescription": "AI tool for realistic voices and voice cloning.",
     "longDescription": "ElevenLabs is an advanced AI voice technology platform specializing in high-quality text-to-speech and voice cloning. Known for its natural-sounding, emotionally expressive voices, ElevenLabs enables creators, developers, and businesses to generate realistic speech for audiobooks, videos, games, podcasts, and applications. With multilingual support and precise voice control, ElevenLabs delivers human-like audio while prioritizing ethical use and voice safety.",
     "features": [
@@ -205,7 +212,8 @@
       "Fine-tune voice delivery with pacing, emphasis, and expression controls",
       "Access via web and API for seamless creative and developer workflows"
     ],
-    "videos": "https://youtu.be/5Dk5k8FjJ8M",
+    "videos": "https://www.youtube.com/embed/v-EYzZCLF48?si=FS-_19iPZelzJqqQ",
+    "images":["https://www.howtobuysaas.com/wp-content/uploads/2023/08/64b5aae2a9516067d0309315_f8dfee99-7643-4d4e-a343-1608b4851e87.png"],
     "provider": "ElevenLabs",
     "category": "Voice",
     "tags": [
@@ -221,7 +229,7 @@
   {
     "id": 9,
     "name": "Synthesia",
-    "logo": "/logos/synthesia.png",
+    "logo": "https://digino.org/wp-content/uploads/2023/12/synthesia-logo.png",
     "shortDescription": "AI video creation with avatars and voiceovers.",
     "longDescription": "Synthesia is an AI video generation platform that enables users to create professional-quality videos using realistic AI avatars and text-to-speech technology. Designed for business, education, and marketing use cases, Synthesia allows teams to produce training videos, presentations, and product explainers without cameras, actors, or studios. With support for multiple languages and customizable avatars, Synthesia makes video creation fast, scalable, and accessible.",
     "features": [
@@ -232,7 +240,8 @@
       "Eliminate the need for cameras, studios, or video crews",
       "Access an intuitive web-based platform for fast video creation"
     ],
-    "videos": "https://youtu.be/8VZ5pGkY7dM",
+    "videos": "https://www.youtube.com/embed/7k3N1bUURa4?si=q7x8BGKEIuOBkfC9",
+    "images":["https://minidea.co.in/wp-content/uploads/2024/02/Synthesia-AI-Video-Maker-Tool.jpg","https://heyreal.ai/wp-content/uploads/2024/09/synthesia-ai.jpg"],
     "provider": "Synthesia",
     "category": "Video",
     "tags": [
@@ -245,7 +254,7 @@
   {
     "id": 10,
     "name": "Canva AI",
-    "logo": "/logos/canva.png",
+    "logo": "https://freepnglogo.com/images/all_img/1691829400logo-canva-png.png",
     "shortDescription": "AI design suite with templates, images, and editing tools.",
     "longDescription": "Canva AI is an intelligent design assistant built into Canva that helps users create professional-quality designs quickly and easily. By combining generative AI with Canva’s drag-and-drop design platform, Canva AI enables individuals and teams to generate presentations, social media posts, documents, images, and marketing materials from simple text prompts. Designed for accessibility and speed, Canva AI empowers anyone—regardless of design experience—to produce visually compelling content at scale.",
     "features": [
@@ -256,7 +265,8 @@
       "Collaborate easily with teams in real time",
       "Produce professional visuals without advanced design skills"
     ],
-    "videos": "https://youtu.be/6Qw6K7Jm5qA",
+    "videos": "https://www.youtube.com/embed/bVCRcNlY1yw?si=BHfVp84Y4YAqPNUg",
+    "images":["https://static-cse.canva.com/blob/933687/feature_StockImages_lead_022x.jpg","https://static-cse.canva.com/blob/1330081/tools-feature_png-maker_how-to.jpg","https://static-cse.canva.com/blob/940573/Canva_worksuite_new.png"],
     "provider": "Canva",
     "category": "Design",
     "tags": [
