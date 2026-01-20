@@ -279,7 +279,7 @@
   {
     "id": 11,
     "name": "Jasper AI",
-    "logo": "/logos/jasper.png",
+    "logo": "https://neilchasefilm.com/wp-content/uploads/2023/12/jasper-logo-1.webp",
     "shortDescription": "AI copywriting and marketing content generator.",
     "longDescription": "Jasper AI is a leading AI-powered content creation platform designed to help marketing teams and businesses produce high-quality written content at scale. Built with a focus on brand voice, speed, and performance, Jasper AI supports everything from blog posts and ad copy to emails and social media content. With advanced workflows, collaboration tools, and brand controls, Jasper enables teams to create consistent, on-brand content efficiently across multiple channels.",
     "features": [
@@ -290,7 +290,8 @@
       "Improve content performance with built-in optimization tools",
       "Integrate seamlessly into professional marketing workflows"
     ],
-    "videos": "https://youtu.be/9JH1X5ZQK2E",
+    "videos": "https://www.youtube.com/embed/4GO82RerfcY?si=K7tkm6CP9NukFCTT",
+    "images":["https://itirupati.com/wp-content/uploads/2024/06/Jasperai-Landing-Webpage.jpg","https://www.forssinc.com/wp-content/uploads/2022/09/Jasper-AI-Dashboard-User-Experience-User-Interface-1024x664.png","https://www.travelpayouts.com/blog/wp-content/uploads/2023/04/image-26.png"],
     "provider": "Jasper AI",
     "category": "Writing",
     "tags": [
@@ -304,7 +305,7 @@
   {
     "id": 12,
     "name": "Copy.ai",
-    "logo": "/logos/copyai.png",
+    "logo": "https://th.bing.com/th/id/ODF.H-OYJYMVao8DcEE5sg5THw?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2",
     "shortDescription": "AI tool for generating marketing copy and emails.",
     "longDescription": "Copy.ai is an AI-powered writing and go-to-market platform designed to help businesses create high-quality content quickly and consistently. Focused on marketing, sales, and operations use cases, Copy.ai enables teams to generate copy for ads, emails, blogs, product descriptions, and sales outreach while streamlining workflows with automation. With a strong emphasis on speed, scalability, and revenue impact, Copy.ai helps teams move faster from idea to execution.",
     "features": [
@@ -315,7 +316,8 @@
       "Support sales outreach, lead generation, and content scaling",
       "Access an intuitive platform built for business productivity"
     ],
-    "videos": "https://youtu.be/FK3Q1X7K9mA",
+    "videos": "https://www.youtube.com/embed/MdSPZ709cpE?si=uwf4Pd6UQg9vT1vg",
+    "images":["https://appsumo2-cdn.appsumo.com/media/selfsubmissions/images/d91a71ff-7a0b-46a2-9769-6e6fe1820df9.png","https://techcrunch.com/wp-content/uploads/2021/10/Copy.ai-Image.png","https://anishmandal.in/wp-content/uploads/2022/09/01-1024x482.png"],
     "provider": "Copy.ai",
     "category": "Writing",
     "tags": [
@@ -329,7 +331,7 @@
   {
     "id": 13,
     "name": "Grammarly",
-    "logo": "/logos/grammarly.png",
+    "logo": "https://companieslogo.com/img/orig/grammarly-0336804c.png?t=1720244494",
     "shortDescription": "AI-powered grammar checker and writing assistant.",
     "longDescription": "Grammarly is an AI-powered writing assistant designed to help users communicate clearly, correctly, and confidently. It goes beyond basic grammar and spell checking by offering real-time suggestions for clarity, tone, engagement, and correctness across emails, documents, messages, and professional writing. Used by individuals, teams, and enterprises, Grammarly integrates seamlessly into browsers, desktop apps, and workflows to improve writing quality and consistency.",
     "features": [
@@ -340,7 +342,8 @@
       "Detect plagiarism and suggest proper citations (premium)",
       "Integrate with browsers, desktop apps, and popular tools"
     ],
-    "videos": "https://youtu.be/1FovY1K8Z5Y",
+    "videos": "https://www.youtube.com/embed/lISkk6k5mKY?si=kOTXkRacja7Mx6Zc",
+    "images":["https://static-web.grammarly.com/cms/master/public/open-graph/social-24.png","https://static.grammarly.com/assets/files/521362652bb1f65455ad807b6f742620/open-graph-image-newfunnel.png"],
     "provider": "Grammarly",
     "category": "Writing",
     "tags": [
@@ -354,7 +357,7 @@
   {
     "id": 14,
     "name": "Notion AI",
-    "logo": "/logos/notion.png",
+    "logo": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/notion.png",
     "shortDescription": "AI-powered productivity assistant inside Notion.",
     "longDescription": "Notion AI is an AI-powered productivity and writing assistant built directly into the Notion workspace to help users create, edit, organize, and understand content more effectively. Beyond basic grammar and spelling corrections, Notion AI leverages context from your Notion pages, databases, and documents to generate content, summarize notes, extract action items, brainstorm ideas, translate text, and automate workflows. Designed for individuals and teams, it integrates seamlessly within Notion’s interface to boost productivity, streamline writing, and make information easier to work with across projects, documentation, and collaboration.",
     "features": [
@@ -367,7 +370,8 @@
       "Understand document context to provide relevant responses and database-aware content",
       "Works natively within Notion—no switching between tools or copying text"
     ],
-    "videos": "https://youtu.be/S92KX8-Hmlc",
+    "videos": "https://www.youtube.com/embed/S92KX8-Hmlc?si=rE0A1MfQ2dsHli41",
+    "images":["https://a-us.storyblok.com/f/1014951/860x460/993994baf6/notion-ai-website.png/m/2600x0","https://itirupati.com/wp-content/uploads/2024/07/Notion-ai-Landing-Webpage.webp"],
     "provider": "Notion",
     "category": "Productivity",
     "tags": [
@@ -376,12 +380,13 @@
       "writing",
       "workspace"
     ],
-    "website": "https://notion.so"
+    "website": "https://notion.so",
+    "logotype": "white"
   },
   {
     "id": 15,
     "name": "Tome",
-    "logo": "/logos/tome.png",
+    "logo": "https://lasmejoresia.com/wp-content/uploads/2024/07/Tome-Logo.png",
     "shortDescription": "AI storytelling and presentation creation tool.",
     "longDescription": "Tome is an AI-powered storytelling and presentation assistant designed to help users quickly create compelling, visually rich narratives. It enables individuals and teams to generate structured presentations, documents, and stories from simple prompts, combining text, visuals, and layout automatically. By leveraging AI for content generation, design, and organization, Tome reduces the time and effort needed to communicate ideas clearly and persuasively, making it ideal for pitches, product stories, proposals, and knowledge sharing.",
     "features": [
@@ -393,7 +398,8 @@
       "Collaborate and iterate on presentations in real time",
       "Export or share presentations easily with teams and stakeholders"
     ],
-    "videos": "https://youtu.be/5rRZ0kHkF8A",
+    "videos": "https://www.youtube.com/embed/fdgsJDDKFI4?si=XK6qeSWWfvvFGGhy",
+    "images":["https://tse2.mm.bing.net/th/id/OIP.Z1CLWYfkdkdeick0VOdXtwHaDt?rs=1&pid=ImgDetMain&o=7&rm=3"],
     "provider": "Tome",
     "category": "Productivity",
     "tags": [
@@ -407,7 +413,7 @@
   {
     "id": 16,
     "name": "Figma AI",
-    "logo": "/logos/figma.png",
+    "logo": "https://vectorseek.com/wp-content/uploads/2023/07/Figma-Logo-Png-Vector.svg-.png",
     "shortDescription": "AI assistant integrated into Figma for design workflows.",
     "longDescription": "Figma AI is an AI-powered design assistant integrated into Figma, helping designers, teams, and product creators streamline the creation, iteration, and refinement of user interfaces and visual assets. It leverages AI to generate design elements, suggest layouts, automate repetitive tasks, and enhance creativity, all while maintaining consistency with your design system. Figma AI empowers teams to work faster, explore design ideas effortlessly, and focus on high-impact creative decisions across web, mobile, and product design workflows.",
     "features": [
@@ -419,7 +425,8 @@
       "Maintain design consistency with smart style and component recommendations",
       "Integrate AI-powered content generation directly within Figma files"
     ],
-    "videos": "https://youtu.be/Qhz5H6RqlY4",
+    "videos": "https://www.youtube.com/embed/1PFkmrb4Bqg?si=LFVu5dkQQEAQ-lF2",
+    "images":["https://s3-alpha.figma.com/hub/file/6293616275/42bf6ec4-11c7-4f0d-a8ad-f659a29a5230-cover.png","https://www.uxdesigninstitute.com/blog/wp-content/uploads/2024/08/338_Figma-AI_Image_Blog.png"],
     "provider": "Figma",
     "category": "Design",
     "tags": [
