@@ -1,16 +1,66 @@
-# React + Vite
+# IntelliSpot 🚀  
+**AI Tools & Prompts Platform**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IntelliSpot is a modern web platform designed to help users discover, explore, and leverage AI tools and prompt resources from a single, curated space. It also empowers founders and creators to submit and promote their AI products to a targeted audience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- 🔍 **Discover AI Tools & Prompts**  
+  Browse a curated collection of AI tools and prompt libraries across multiple categories.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🧭 **Search & Explore**  
+  Easily find relevant tools using search and category-based filtering.
 
-## Expanding the ESLint configuration
+- 📤 **Submit & Promote Tools**  
+  Founders and creators can submit their AI tools to showcase and reach a wider audience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 **Clean & Modern UI**  
+  Intuitive and responsive interface focused on usability and clarity.
+
+- ⚡ **Scalable Architecture**  
+  Built with scalability in mind to support future features and growth.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js / Next.js  
+- **Styling:** Tailwind CSS  
+- **Backend:** (In Progress / Planned)  
+- **Database:** (Planned)  
+- **Deployment:** (Planned)
+
+> ⚠️ IntelliSpot is currently under active development. Features and architecture may evolve.
+
+---
+
+## 🚧 Current Status
+
+- Core UI and layout design in progress  
+- Tool and prompt listing structure implemented  
+- Submission workflow under development  
+
+---
+
+## 🧠 Vision
+
+To create a go-to platform where users can effortlessly discover AI solutions, and where founders can effectively showcase and grow their AI products.
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feature ideas are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📬 Contact
+
+If you have ideas, feedback, or collaboration opportunities, feel free to reach out.
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!
